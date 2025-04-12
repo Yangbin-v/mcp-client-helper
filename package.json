@@ -1,0 +1,29 @@
+{
+  "name": "mcp-client-helper",
+  "version": "1.0.0",
+  "description": "MCP Server管理工具库 - 用于控制和监控MCP服务器的运行状态",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/example.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "server",
+    "management",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

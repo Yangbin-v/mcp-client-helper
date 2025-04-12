@@ -1,0 +1,13 @@
+# 配置文件
+.env
+
+# 构建产物
+dist
+
+# 依赖
+node_modules
+
+# 临时文件
+*.log
+*.tmp
+*.temp
